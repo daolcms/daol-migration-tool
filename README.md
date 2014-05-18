@@ -1,4 +1,4 @@
-Daol Migration Tool
+DAOL Migration Tool
 ===================
 
-Daol Migration Tool
+DAOL Migration Tool
