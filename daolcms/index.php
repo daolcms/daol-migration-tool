@@ -1,6 +1,6 @@
 <?php
     /**
-     * @brief xe export tool
+     * @brief DAOL CMS export tool
      * @author zero (zero@xpressengine.com)
      **/
 
@@ -111,7 +111,7 @@
 <html lang="ko" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="generator" content="XpressEngine (http://www.xpressengine.com)" />
+    <meta name="generator" content="DAOL CMS (http://www.daolcms.org/)" />
     <meta http-equiv="imagetoolbar" content="no" />
 
     <title>DAOL CMS data export tool ver 0.4</title>
@@ -140,7 +140,7 @@
 </head>
 <body>
 
-    <h1>xe data export tool ver 0.4</h1>
+    <h1>DAOL CMS data export tool ver 0.4</h1>
 
     <?php
         if($errMsg) {
@@ -160,11 +160,11 @@
 
         <ul>
             <li>
-                xe 가 설치된 경로를 입력해주세요.
+                DAOL CMS가 설치된 경로를 입력해주세요.
 
                 <blockquote>
-                예1) /home/아이디/public_html/xe<br />
-                예2) ../xe
+                예1) /home/아이디/public_html/daol<br />
+                예2) ../daol
                 </blockquote>
 
                 <input type="text" name="path" value="<?php print $path; ?>" class="input_text" /><input type="submit" class="input_submit"value="설치 경로 입력" />
@@ -181,7 +181,7 @@
     <input type="hidden" name="path" value="<?php echo $path?>" />
 
         <h3>Step 2. 추출할 대상을 선택해주세요. (회원정보 또는 게시판)</h3>
-        <blockquote>xe는 회원정보와 그외 모듈 종류를 나누어 추출하실 수 있습니다.</blockquote>
+        <blockquote>DAOL CMS는 회원정보와 그외 모듈 종류를 나누어 추출하실 수 있습니다.</blockquote>
 
         <ul>
             <li>
@@ -255,7 +255,7 @@
         <blockquote>
             추출 파일 다운로드<br />
             차례대로 클릭하시면 다운로드 하실 수 있습니다<br />
-            다운을 받지 않고 URL을 직접 zbXE 데이터이전 모듈에 입력하여 데이터 이전하실 수도 있습니다.
+            다운을 받지 않고 URL을 직접 DAOL CMS 데이터이전 모듈에 입력하여 데이터 이전하실 수도 있습니다.
         </blockquote>
 
         <ol>
